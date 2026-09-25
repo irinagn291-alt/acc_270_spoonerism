@@ -3,11 +3,11 @@ Spoonerism is a quiet art quiz for people who want to keep Prado paintings on th
 • Keep Prado paintings on this device from Browse (search or bundled shelf)
 • Spoon a maker or title line so two first letters trade; word order stays
 • Tap the swapped word to file a hit; wrong taps record misses and grey that word
-• Home Quiz stays up; Browse, Kept, Settings, and How it works open over it
+• Home Quiz stays up; Browse, Kept, Settings and How it works open over it
 • Recent hits and miss counts on Quiz; full Filed / Hits and misses lists in Kept
 • Undo newest hit or miss from Quiz or Settings
 • Three-page onboarding; re-run or full reset from Settings
 • Prado collection credit links and Contact support link
 • Light portrait UI; day stamp on the painting caption
 
-Works, hits, and misses stay on this device. English UI only. Portrait on iPhone and iPad.
+Works, hits and misses stay on this device. English UI only. Portrait on iPhone and iPad.
