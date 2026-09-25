@@ -1,0 +1,17 @@
+At cold launch the system may ask for notification permission via the system dialog; there is no custom usage-description string in the app for notifications. Camera is not requested. A usage string "This app does not use the camera." is present in build settings, but no camera prompt appears.
+
+There is no login, no in-app purchase, no user-generated content, no account deletion flow, and no App Tracking Transparency prompt.
+
+Spoonerism is a quiet art quiz for people who want to keep Prado paintings on this device and play with their maker or title words. It spooners a line so two first letters trade places, then asks you to tap a word that swapped. Hits file the painting; misses stay with the kept works.
+
+No credentials or demo account are needed. Cold launch shows a full-screen splash image while the app boots. If onboarding is not finished, a three-page cover appears with Skip (pages 1–2) and Continue. Page 1: "Save a painting." / "Keep Prado works on this device. Home is the line, not a museum walk." Page 2: "Tap a swapped word." / "Two first letters trade. Word order stays. Tap a word that swapped its first letter." Page 3: "File the painting." / "A true tap shelves it. Misses stay with kept paintings." Skip or finishing page 3 opens Quiz. Tap Browse, use Search a work or the bundled shelf, and tap a row to save on this device. On Quiz, when Ready ("Pick a painting"), tap Spoon. When Live ("Tap the swapped word"), tap the word that swapped its first letter to file the painting. Open Kept for Filed and Hits and misses, How it works for the rules, and Settings for This device counts, Re-run onboarding, or Reset all data.
+
+Works, hits, and misses stay on this device. Browse may reach the Prado collection for search and images. In Settings, Contact opens the support page in the browser.
+
+The UI is English only. Counts and day stamps use the device locale’s number formatting. Behaviour does not otherwise differ by region.
+
+No licence or regulated-industry paperwork applies; this is an Education art quiz with no regulated claims.
+
+The app is a personal log only and gives no recommendations.
+
+The app does not scan barcodes or QR codes.

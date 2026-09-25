@@ -1,0 +1,110 @@
+name: Spoonerism
+options:
+  bundleIdPrefix: com.spoonerism
+  deploymentTarget:
+    iOS: '17.0'
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: '6.2'
+    IPHONEOS_DEPLOYMENT_TARGET: '17.0'
+    SWIFT_STRICT_CONCURRENCY: complete
+targets:
+  Spoonerism:
+    type: application
+    platform: iOS
+    sources:
+    - path: Spoonerism
+    resources:
+    - path: PrivacyInfo.xcprivacy
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.spoonerism.marrow
+        PRODUCT_NAME: Spoonerism
+        GENERATE_INFOPLIST_FILE: 'YES'
+        INFOPLIST_KEY_ITSAppUsesNonExemptEncryption: 'NO'
+        INFOPLIST_KEY_CFBundleDisplayName: Spoonerism
+        INFOPLIST_KEY_UILaunchScreen_Generation: 'YES'
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_UIRequiresFullScreen: 'YES'
+        INFOPLIST_KEY_UIUserInterfaceStyle: Light
+        INFOPLIST_KEY_NSCameraUsageDescription: This app does not use the camera.
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.education
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS: 'NO'
+        ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS: 'NO'
+        TARGETED_DEVICE_FAMILY: 1,2
+        SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: 'NO'
+        SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD: 'NO'
+        CURRENT_PROJECT_VERSION: 1
+        MARKETING_VERSION: 1.0.0
+        SWIFT_STRICT_CONCURRENCY: complete
+        CODE_SIGN_STYLE: Automatic
+        INFOPLIST_FILE: Support/Spoonerism-Info.plist
+        CODE_SIGN_ENTITLEMENTS: Support/Spoonerism.entitlements
+    dependencies:
+    - package: Alamofire
+    - package: OneSignal
+      product: OneSignalFramework
+    - package: OneSignal
+      product: OneSignalInAppMessages
+    - target: OneSignalNotificationServiceExtension
+  SpoonerismTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+    - path: SpoonerismTests
+    dependencies:
+    - target: Spoonerism
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.spoonerism.marrow.tests
+        GENERATE_INFOPLIST_FILE: 'YES'
+        IPHONEOS_DEPLOYMENT_TARGET: '17.0'
+        SWIFT_VERSION: '6.2'
+        SWIFT_STRICT_CONCURRENCY: complete
+        TEST_HOST: $(BUILT_PRODUCTS_DIR)/Spoonerism.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Spoonerism
+        BUNDLE_LOADER: $(TEST_HOST)
+        CODE_SIGN_STYLE: Automatic
+  OneSignalNotificationServiceExtension:
+    type: app-extension
+    platform: iOS
+    sources:
+    - path: OneSignalNotificationServiceExtension
+    dependencies:
+    - package: OneSignal
+      product: OneSignalExtension
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.spoonerism.marrow.OneSignalNotificationServiceExtension
+        PRODUCT_NAME: OneSignalNotificationServiceExtension
+        GENERATE_INFOPLIST_FILE: 'YES'
+        INFOPLIST_FILE: Support/OneSignalNotificationServiceExtension-Info.plist
+        INFOPLIST_KEY_CFBundleDisplayName: OneSignalNotificationServiceExtension
+        CODE_SIGN_ENTITLEMENTS: Support/OneSignalNotificationServiceExtension.entitlements
+        CODE_SIGN_STYLE: Automatic
+        IPHONEOS_DEPLOYMENT_TARGET: '17.0'
+        SWIFT_VERSION: '5.0'
+        SWIFT_STRICT_CONCURRENCY: minimal
+        TARGETED_DEVICE_FAMILY: 1,2
+        SKIP_INSTALL: 'YES'
+        MARKETING_VERSION: 1.0.0
+        CURRENT_PROJECT_VERSION: 1
+schemes:
+  Spoonerism:
+    build:
+      targets:
+        Spoonerism: all
+        SpoonerismTests:
+        - test
+    test:
+      targets:
+      - SpoonerismTests
+packages:
+  Alamofire:
+    url: https://github.com/wrandecima-bit/Alamofire
+    revision: 7fdd403089757be2ce6991b287c7bef612c8bd04
+  OneSignal:
+    url: https://github.com/OneSignal/OneSignal-XCFramework
+    from: 5.5.0

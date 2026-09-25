@@ -1,0 +1,865 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F119C43F7B2ECDB72B53F27 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40125E2A9013CF5443FA8539 /* QuizView.swift */; };
+		16AD2B6AC99C2B7D2DD8D620 /* Head.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE6193BED6540D135F1DBB3 /* Head.swift */; };
+		1800FC1976B431B237624824 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A7E3A59FCA163AC1743A26 /* APIConfig.swift */; };
+		1C78FC165B11B85EE3DD6186 /* CatalogClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4C9B45DFDC018F390C5506 /* CatalogClientTests.swift */; };
+		2024848495DB25BE7FA077E7 /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = 06D9D3DA5421B423EC5C1C2A /* OneSignalInAppMessages */; };
+		2F6EC9815C8377BFF76F3C91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30B4410245E4BDBB56CE2D7 /* ContentView.swift */; };
+		3139EBAD53F97F399401B417 /* MarrowPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A36D422120D0ECA21A1433 /* MarrowPress.swift */; };
+		37ABE58A06FBEBFC407F354D /* OnsetDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAF5E5780F43FF3200D1C3 /* OnsetDocument.swift */; };
+		4166D67BCD397E02B60864E7 /* MendMarkRail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45633F78F6B672F84B9C2A2 /* MendMarkRail.swift */; };
+		48D2A38A094D1A5F14BD6E5D /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 76A802A29113D2CB83FAF623 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4B172E9BC51BE77D5FA4334E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7298EB935653E57EB6D7F1F6 /* Alamofire */; };
+		50FDAEB7DADBA72080605FA6 /* Shelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DE63EF19E6BDC6A733A942 /* Shelf.swift */; };
+		635D39D9E7693D886CDB1869 /* Daykey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE7C3826FE046B973EE7219 /* Daykey.swift */; };
+		65C320B3A2F695A90BD6D2F6 /* HeadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B9E2C232589BA0884CF500 /* HeadButton.swift */; };
+		67166050C4642811CC95588E /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562B91FDA01DD38D5D92A349 /* Work.swift */; };
+		6B2D1F8CAE005974237F7381 /* FluentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D781C096CE793C0D8354F43 /* FluentView.swift */; };
+		6C5A8D0FEA7D6D7529F5E940 /* MendMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB83C4C4AEA8E8915998774 /* MendMark.swift */; };
+		70ABD17DF9852E3600188660 /* QuizTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D8355571C490FDCFF3BA /* QuizTile.swift */; };
+		7A932DC54E7A6FEFEE682520 /* OnsetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A35461B02F7E09FC564FFC /* OnsetStore.swift */; };
+		815196525D4D45C65DA6F816 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB12B05F8565606072850D4A /* NotificationService.swift */; };
+		82F07F808D3F3DDCBD538DD8 /* ExploreSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7015A46CACC6850AE66C240A /* ExploreSheet.swift */; };
+		86F5B4358E42D077E1D01368 /* OnsetFoldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3D4F8F1894465A08939616 /* OnsetFoldTests.swift */; };
+		902AF22B894F3EC3A5AEF980 /* FamilyInvariantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D88C3FAC6F0333B2CE6BEB /* FamilyInvariantTests.swift */; };
+		930F0DCE921E650D4B2AC29E /* OnsetVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76D034854770D5B4B726D4 /* OnsetVault.swift */; };
+		97FD9F83DDB2F75ADE1DA807 /* MarrowInk.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EDDD8502DEE97CA538C2BD /* MarrowInk.swift */; };
+		9E4B7F558E9DAC557EC4FF0B /* MuffMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F87CA3E5294FA8A9213A5B /* MuffMark.swift */; };
+		9FFB6B91C00B97B2FDC27FBC /* OnsetStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5802482AC1C160E48A9DD8FD /* OnsetStoreTests.swift */; };
+		A19838EB0407F0269F599DD5 /* SpoonerismTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C13315C6BA72FE716BE106 /* SpoonerismTests.swift */; };
+		A5F362D2262D3A745420E981 /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1D23423FD68F58F4EC2E6 /* DesignTokens.swift */; };
+		A9F6679AFE9DE451B93418A6 /* OnsetSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D8838BFEB98EC43FC99FBD /* OnsetSeed.swift */; };
+		AA1C91B869DD7C451ABAD201 /* ReviewLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEAD33169BF48AFE0DE0759 /* ReviewLaunch.swift */; };
+		AA52429C8A20AE7B6F868DFB /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = E2682FDD0257C083FC1B6F2F /* OneSignalFramework */; };
+		AACF0A368F3F1C3EEF2B3293 /* Onset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901E7AAFFDC7F49456ACC422 /* Onset.swift */; };
+		B42AFE608F5BE987D96D4D64 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8A1EEAEC6C60E01F5DDEF5 /* Line.swift */; };
+		B9CFE0113BC3799FA0BFCDD3 /* OnsetLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F974CD09D4C002DA078B59B /* OnsetLinks.swift */; };
+		BA8EA51D6C0063121849F80F /* SpoonMendSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6544B64EA00BDF4C7C9DAB7F /* SpoonMendSheet.swift */; };
+		BD070509DC8D6C0E2E07C142 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC271462FC25336234F3E75 /* OnboardingView.swift */; };
+		C14D6976A284957AC7F4C084 /* SavedSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806626271260D928A4826C41 /* SavedSheet.swift */; };
+		C1ACC63F0DC050FA9215D692 /* SettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D1B7815BFDE0CFB7D62E98 /* SettingsSheet.swift */; };
+		C2E0DBEE46C0617E8B66E50B /* CatalogClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A454F8C5465B1F6DB8AA2B14 /* CatalogClient.swift */; };
+		CAD8A954F1452B5E01EBA55E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97F258B720C28E4FBE516B03 /* Assets.xcassets */; };
+		CD2E1074888DFED52B72F2FA /* SpoonerismApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0554F26C46A94D233C4B4AE /* SpoonerismApp.swift */; };
+		D5D8E95EA712255D8D078805 /* OnsetDesk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEECA91D033FD4E698B5BA /* OnsetDesk.swift */; };
+		E6C7D160627A394034C31B43 /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 48794442EC9CBF1755F05A23 /* OneSignalExtension */; };
+		E89BD825933AD36D655FDEF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4406A99F6640BD0FAEFAF7BE /* AppDelegate.swift */; };
+		F2A51C253BD09A3189381C7E /* SpoonerismGMT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8474A99053F032C2CEEC7F /* SpoonerismGMT.swift */; };
+		F6F447E228DEEBCC53E4BD71 /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EA700F71116A9E788643FB /* LineView.swift */; };
+		FC7C0B6CFDF30696337192D2 /* OnsetLinksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D991FCB30E41727D57D33F66 /* OnsetLinksTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B4A8DF2E86104B10A704510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D9DDAC052B1EB506A06EBB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C33895D659B330A4A4599BB;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+		57AC68CFB192E7D75DF2F2D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D9DDAC052B1EB506A06EBB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F452DA01214EF97FFA2FF14;
+			remoteInfo = Spoonerism;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		92372C830916AC8E129BF46F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				48D2A38A094D1A5F14BD6E5D /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		11B9E2C232589BA0884CF500 /* HeadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadButton.swift; sourceTree = "<group>"; };
+		16EA700F71116A9E788643FB /* LineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
+		1A3D4F8F1894465A08939616 /* OnsetFoldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnsetFoldTests.swift; sourceTree = "<group>"; };
+		24E1D23423FD68F58F4EC2E6 /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
+		40125E2A9013CF5443FA8539 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		4406A99F6640BD0FAEFAF7BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D781C096CE793C0D8354F43 /* FluentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluentView.swift; sourceTree = "<group>"; };
+		562B91FDA01DD38D5D92A349 /* Work.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
+		5802482AC1C160E48A9DD8FD /* OnsetStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnsetStoreTests.swift; sourceTree = "<group>"; };
+		5E8474A99053F032C2CEEC7F /* SpoonerismGMT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoonerismGMT.swift; sourceTree = "<group>"; };
+		5EE7C3826FE046B973EE7219 /* Daykey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daykey.swift; sourceTree = "<group>"; };
+		63C13315C6BA72FE716BE106 /* SpoonerismTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoonerismTests.swift; sourceTree = "<group>"; };
+		6544B64EA00BDF4C7C9DAB7F /* SpoonMendSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoonMendSheet.swift; sourceTree = "<group>"; };
+		69A35461B02F7E09FC564FFC /* OnsetStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnsetStore.swift; sourceTree = "<group>"; };
+		7015A46CACC6850AE66C240A /* ExploreSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreSheet.swift; sourceTree = "<group>"; };
+		72581756867DC9C8BBDDF65F /* Spoonerism.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Spoonerism.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D88C3FAC6F0333B2CE6BEB /* FamilyInvariantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyInvariantTests.swift; sourceTree = "<group>"; };
+		76A802A29113D2CB83FAF623 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		806626271260D928A4826C41 /* SavedSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedSheet.swift; sourceTree = "<group>"; };
+		83A7E3A59FCA163AC1743A26 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		84A36D422120D0ECA21A1433 /* MarrowPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarrowPress.swift; sourceTree = "<group>"; };
+		8CE6193BED6540D135F1DBB3 /* Head.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Head.swift; sourceTree = "<group>"; };
+		8F974CD09D4C002DA078B59B /* OnsetLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnsetLinks.swift; sourceTree = "<group>"; };
+		901E7AAFFDC7F49456ACC422 /* Onset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onset.swift; sourceTree = "<group>"; };
+		97F258B720C28E4FBE516B03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98EEECA91D033FD4E698B5BA /* OnsetDesk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnsetDesk.swift; sourceTree = "<group>"; };
+		9E76D034854770D5B4B726D4 /* OnsetVault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnsetVault.swift; sourceTree = "<group>"; };
+		9EEAD33169BF48AFE0DE0759 /* ReviewLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewLaunch.swift; sourceTree = "<group>"; };
+		A0D1B7815BFDE0CFB7D62E98 /* SettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSheet.swift; sourceTree = "<group>"; };
+		A1F87CA3E5294FA8A9213A5B /* MuffMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuffMark.swift; sourceTree = "<group>"; };
+		A454F8C5465B1F6DB8AA2B14 /* CatalogClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogClient.swift; sourceTree = "<group>"; };
+		A7BAF5E5780F43FF3200D1C3 /* OnsetDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnsetDocument.swift; sourceTree = "<group>"; };
+		ABC271462FC25336234F3E75 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B3DE63EF19E6BDC6A733A942 /* Shelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shelf.swift; sourceTree = "<group>"; };
+		BE4C9B45DFDC018F390C5506 /* CatalogClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogClientTests.swift; sourceTree = "<group>"; };
+		C59625F09466A5A6CE102716 /* SpoonerismTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SpoonerismTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7D8838BFEB98EC43FC99FBD /* OnsetSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnsetSeed.swift; sourceTree = "<group>"; };
+		D30B4410245E4BDBB56CE2D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D991FCB30E41727D57D33F66 /* OnsetLinksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnsetLinksTests.swift; sourceTree = "<group>"; };
+		E0554F26C46A94D233C4B4AE /* SpoonerismApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoonerismApp.swift; sourceTree = "<group>"; };
+		E45633F78F6B672F84B9C2A2 /* MendMarkRail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MendMarkRail.swift; sourceTree = "<group>"; };
+		E9EDDD8502DEE97CA538C2BD /* MarrowInk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarrowInk.swift; sourceTree = "<group>"; };
+		EB8A1EEAEC6C60E01F5DDEF5 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		ECB83C4C4AEA8E8915998774 /* MendMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MendMark.swift; sourceTree = "<group>"; };
+		F1D3D8355571C490FDCFF3BA /* QuizTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTile.swift; sourceTree = "<group>"; };
+		FB12B05F8565606072850D4A /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE0A280B2235E141CC6472D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B172E9BC51BE77D5FA4334E /* Alamofire in Frameworks */,
+				AA52429C8A20AE7B6F868DFB /* OneSignalFramework in Frameworks */,
+				2024848495DB25BE7FA077E7 /* OneSignalInAppMessages in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB967D0CADD96421230291ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6C7D160627A394034C31B43 /* OneSignalExtension in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F2E89FEF63FF6E32D2811BA /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				FB12B05F8565606072850D4A /* NotificationService.swift */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		5A6A39366373946F42F521EA /* Head */ = {
+			isa = PBXGroup;
+			children = (
+				8CE6193BED6540D135F1DBB3 /* Head.swift */,
+				11B9E2C232589BA0884CF500 /* HeadButton.swift */,
+			);
+			path = Head;
+			sourceTree = "<group>";
+		};
+		5DE29E3A8D5A2D22FF20306F /* Line */ = {
+			isa = PBXGroup;
+			children = (
+				EB8A1EEAEC6C60E01F5DDEF5 /* Line.swift */,
+				16EA700F71116A9E788643FB /* LineView.swift */,
+			);
+			path = Line;
+			sourceTree = "<group>";
+		};
+		5E0068803BD87F6E4243DC4E /* SpoonerismTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE4C9B45DFDC018F390C5506 /* CatalogClientTests.swift */,
+				75D88C3FAC6F0333B2CE6BEB /* FamilyInvariantTests.swift */,
+				1A3D4F8F1894465A08939616 /* OnsetFoldTests.swift */,
+				D991FCB30E41727D57D33F66 /* OnsetLinksTests.swift */,
+				5802482AC1C160E48A9DD8FD /* OnsetStoreTests.swift */,
+				5E8474A99053F032C2CEEC7F /* SpoonerismGMT.swift */,
+				63C13315C6BA72FE716BE106 /* SpoonerismTests.swift */,
+			);
+			path = SpoonerismTests;
+			sourceTree = "<group>";
+		};
+		6FFBE24C4A8880B345D0A7DC /* MendMark */ = {
+			isa = PBXGroup;
+			children = (
+				ECB83C4C4AEA8E8915998774 /* MendMark.swift */,
+				E45633F78F6B672F84B9C2A2 /* MendMarkRail.swift */,
+			);
+			path = MendMark;
+			sourceTree = "<group>";
+		};
+		70B6F41BF33183BB88ACD263 /* Work */ = {
+			isa = PBXGroup;
+			children = (
+				A454F8C5465B1F6DB8AA2B14 /* CatalogClient.swift */,
+				7015A46CACC6850AE66C240A /* ExploreSheet.swift */,
+				806626271260D928A4826C41 /* SavedSheet.swift */,
+				B3DE63EF19E6BDC6A733A942 /* Shelf.swift */,
+				562B91FDA01DD38D5D92A349 /* Work.swift */,
+			);
+			path = Work;
+			sourceTree = "<group>";
+		};
+		AB9E5197A283DF5B4CE0FDDB /* Onset */ = {
+			isa = PBXGroup;
+			children = (
+				5EE7C3826FE046B973EE7219 /* Daykey.swift */,
+				4D781C096CE793C0D8354F43 /* FluentView.swift */,
+				E9EDDD8502DEE97CA538C2BD /* MarrowInk.swift */,
+				84A36D422120D0ECA21A1433 /* MarrowPress.swift */,
+				ABC271462FC25336234F3E75 /* OnboardingView.swift */,
+				901E7AAFFDC7F49456ACC422 /* Onset.swift */,
+				98EEECA91D033FD4E698B5BA /* OnsetDesk.swift */,
+				A7BAF5E5780F43FF3200D1C3 /* OnsetDocument.swift */,
+				8F974CD09D4C002DA078B59B /* OnsetLinks.swift */,
+				C7D8838BFEB98EC43FC99FBD /* OnsetSeed.swift */,
+				69A35461B02F7E09FC564FFC /* OnsetStore.swift */,
+				9E76D034854770D5B4B726D4 /* OnsetVault.swift */,
+				F1D3D8355571C490FDCFF3BA /* QuizTile.swift */,
+				40125E2A9013CF5443FA8539 /* QuizView.swift */,
+				A0D1B7815BFDE0CFB7D62E98 /* SettingsSheet.swift */,
+				6544B64EA00BDF4C7C9DAB7F /* SpoonMendSheet.swift */,
+			);
+			path = Onset;
+			sourceTree = "<group>";
+		};
+		B964B6BE6E4B455927041F12 /* MuffMark */ = {
+			isa = PBXGroup;
+			children = (
+				A1F87CA3E5294FA8A9213A5B /* MuffMark.swift */,
+			);
+			path = MuffMark;
+			sourceTree = "<group>";
+		};
+		CE4306D08C1D3F338B34FE54 /* Spoonerism */ = {
+			isa = PBXGroup;
+			children = (
+				83A7E3A59FCA163AC1743A26 /* APIConfig.swift */,
+				4406A99F6640BD0FAEFAF7BE /* AppDelegate.swift */,
+				97F258B720C28E4FBE516B03 /* Assets.xcassets */,
+				D30B4410245E4BDBB56CE2D7 /* ContentView.swift */,
+				24E1D23423FD68F58F4EC2E6 /* DesignTokens.swift */,
+				9EEAD33169BF48AFE0DE0759 /* ReviewLaunch.swift */,
+				E0554F26C46A94D233C4B4AE /* SpoonerismApp.swift */,
+				5A6A39366373946F42F521EA /* Head */,
+				5DE29E3A8D5A2D22FF20306F /* Line */,
+				6FFBE24C4A8880B345D0A7DC /* MendMark */,
+				B964B6BE6E4B455927041F12 /* MuffMark */,
+				AB9E5197A283DF5B4CE0FDDB /* Onset */,
+				70B6F41BF33183BB88ACD263 /* Work */,
+			);
+			path = Spoonerism;
+			sourceTree = "<group>";
+		};
+		E1ACBA4A75ECA554355BF81A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76A802A29113D2CB83FAF623 /* OneSignalNotificationServiceExtension.appex */,
+				72581756867DC9C8BBDDF65F /* Spoonerism.app */,
+				C59625F09466A5A6CE102716 /* SpoonerismTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC24EAFFC184F956E2F9262C = {
+			isa = PBXGroup;
+			children = (
+				2F2E89FEF63FF6E32D2811BA /* OneSignalNotificationServiceExtension */,
+				CE4306D08C1D3F338B34FE54 /* Spoonerism */,
+				5E0068803BD87F6E4243DC4E /* SpoonerismTests */,
+				E1ACBA4A75ECA554355BF81A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F452DA01214EF97FFA2FF14 /* Spoonerism */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0FB37366589C859A15C7465 /* Build configuration list for PBXNativeTarget "Spoonerism" */;
+			buildPhases = (
+				FC8EE9C84E38F7E32A86BF51 /* Sources */,
+				3B7602559B2C71EC9709656E /* Resources */,
+				AE0A280B2235E141CC6472D2 /* Frameworks */,
+				92372C830916AC8E129BF46F /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A1EF83395F8FD2A1241263D /* PBXTargetDependency */,
+			);
+			name = Spoonerism;
+			packageProductDependencies = (
+				7298EB935653E57EB6D7F1F6 /* Alamofire */,
+				E2682FDD0257C083FC1B6F2F /* OneSignalFramework */,
+				06D9D3DA5421B423EC5C1C2A /* OneSignalInAppMessages */,
+			);
+			productName = Spoonerism;
+			productReference = 72581756867DC9C8BBDDF65F /* Spoonerism.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C33895D659B330A4A4599BB /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0003DD37842DA5A0728B658 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				19DD36ED7649F9A18BC1D5C5 /* Sources */,
+				CB967D0CADD96421230291ED /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			packageProductDependencies = (
+				48794442EC9CBF1755F05A23 /* OneSignalExtension */,
+			);
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 76A802A29113D2CB83FAF623 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		CC686B2FB9470CA75A68C4E3 /* SpoonerismTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 755685482093496532B28CCF /* Build configuration list for PBXNativeTarget "SpoonerismTests" */;
+			buildPhases = (
+				1B3A8014B0583B7E96AC8970 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEC302FA67BB31AF6B965D34 /* PBXTargetDependency */,
+			);
+			name = SpoonerismTests;
+			packageProductDependencies = (
+			);
+			productName = SpoonerismTests;
+			productReference = C59625F09466A5A6CE102716 /* SpoonerismTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D9DDAC052B1EB506A06EBB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0F452DA01214EF97FFA2FF14 = {
+						ProvisioningStyle = Automatic;
+					};
+					9C33895D659B330A4A4599BB = {
+						ProvisioningStyle = Automatic;
+					};
+					CC686B2FB9470CA75A68C4E3 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5FA70D3FEA2A5B5D8298C0FB /* Build configuration list for PBXProject "Spoonerism" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = FC24EAFFC184F956E2F9262C;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F1F78F58AD11DB195AEC3D09 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				C045AB7F0ECAD718EE57B31F /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E1ACBA4A75ECA554355BF81A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F452DA01214EF97FFA2FF14 /* Spoonerism */,
+				CC686B2FB9470CA75A68C4E3 /* SpoonerismTests */,
+				9C33895D659B330A4A4599BB /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B7602559B2C71EC9709656E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD8A954F1452B5E01EBA55E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19DD36ED7649F9A18BC1D5C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815196525D4D45C65DA6F816 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B3A8014B0583B7E96AC8970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C78FC165B11B85EE3DD6186 /* CatalogClientTests.swift in Sources */,
+				902AF22B894F3EC3A5AEF980 /* FamilyInvariantTests.swift in Sources */,
+				86F5B4358E42D077E1D01368 /* OnsetFoldTests.swift in Sources */,
+				FC7C0B6CFDF30696337192D2 /* OnsetLinksTests.swift in Sources */,
+				9FFB6B91C00B97B2FDC27FBC /* OnsetStoreTests.swift in Sources */,
+				F2A51C253BD09A3189381C7E /* SpoonerismGMT.swift in Sources */,
+				A19838EB0407F0269F599DD5 /* SpoonerismTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8EE9C84E38F7E32A86BF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1800FC1976B431B237624824 /* APIConfig.swift in Sources */,
+				E89BD825933AD36D655FDEF5 /* AppDelegate.swift in Sources */,
+				C2E0DBEE46C0617E8B66E50B /* CatalogClient.swift in Sources */,
+				2F6EC9815C8377BFF76F3C91 /* ContentView.swift in Sources */,
+				635D39D9E7693D886CDB1869 /* Daykey.swift in Sources */,
+				A5F362D2262D3A745420E981 /* DesignTokens.swift in Sources */,
+				82F07F808D3F3DDCBD538DD8 /* ExploreSheet.swift in Sources */,
+				6B2D1F8CAE005974237F7381 /* FluentView.swift in Sources */,
+				16AD2B6AC99C2B7D2DD8D620 /* Head.swift in Sources */,
+				65C320B3A2F695A90BD6D2F6 /* HeadButton.swift in Sources */,
+				B42AFE608F5BE987D96D4D64 /* Line.swift in Sources */,
+				F6F447E228DEEBCC53E4BD71 /* LineView.swift in Sources */,
+				97FD9F83DDB2F75ADE1DA807 /* MarrowInk.swift in Sources */,
+				3139EBAD53F97F399401B417 /* MarrowPress.swift in Sources */,
+				6C5A8D0FEA7D6D7529F5E940 /* MendMark.swift in Sources */,
+				4166D67BCD397E02B60864E7 /* MendMarkRail.swift in Sources */,
+				9E4B7F558E9DAC557EC4FF0B /* MuffMark.swift in Sources */,
+				BD070509DC8D6C0E2E07C142 /* OnboardingView.swift in Sources */,
+				AACF0A368F3F1C3EEF2B3293 /* Onset.swift in Sources */,
+				D5D8E95EA712255D8D078805 /* OnsetDesk.swift in Sources */,
+				37ABE58A06FBEBFC407F354D /* OnsetDocument.swift in Sources */,
+				B9CFE0113BC3799FA0BFCDD3 /* OnsetLinks.swift in Sources */,
+				A9F6679AFE9DE451B93418A6 /* OnsetSeed.swift in Sources */,
+				7A932DC54E7A6FEFEE682520 /* OnsetStore.swift in Sources */,
+				930F0DCE921E650D4B2AC29E /* OnsetVault.swift in Sources */,
+				70ABD17DF9852E3600188660 /* QuizTile.swift in Sources */,
+				0F119C43F7B2ECDB72B53F27 /* QuizView.swift in Sources */,
+				AA1C91B869DD7C451ABAD201 /* ReviewLaunch.swift in Sources */,
+				C14D6976A284957AC7F4C084 /* SavedSheet.swift in Sources */,
+				C1ACC63F0DC050FA9215D692 /* SettingsSheet.swift in Sources */,
+				50FDAEB7DADBA72080605FA6 /* Shelf.swift in Sources */,
+				BA8EA51D6C0063121849F80F /* SpoonMendSheet.swift in Sources */,
+				CD2E1074888DFED52B72F2FA /* SpoonerismApp.swift in Sources */,
+				67166050C4642811CC95588E /* Work.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A1EF83395F8FD2A1241263D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C33895D659B330A4A4599BB /* OneSignalNotificationServiceExtension */;
+			targetProxy = 3B4A8DF2E86104B10A704510 /* PBXContainerItemProxy */;
+		};
+		BEC302FA67BB31AF6B965D34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F452DA01214EF97FFA2FF14 /* Spoonerism */;
+			targetProxy = 57AC68CFB192E7D75DF2F2D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28B001F256CC748167B20764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_ENTITLEMENTS = Support/Spoonerism.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Spoonerism-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Spoonerism;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spoonerism.marrow;
+				PRODUCT_NAME = Spoonerism;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		745090A7219534B210A45BF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.spoonerism.marrow.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spoonerism.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Spoonerism";
+			};
+			name = Release;
+		};
+		76DA551177B867E6AE43C015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Support/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/OneSignalNotificationServiceExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spoonerism.marrow.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		832093BED2A237AC4B4AF45E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_ENTITLEMENTS = Support/Spoonerism.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Spoonerism-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Spoonerism;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spoonerism.marrow;
+				PRODUCT_NAME = Spoonerism;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9099CE364521449331488A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		B84FB85043B4CAB20094C7C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.spoonerism.marrow.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spoonerism.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Spoonerism";
+			};
+			name = Debug;
+		};
+		BDF09B8971A6B9E0B7C6BE6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Support/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/OneSignalNotificationServiceExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spoonerism.marrow.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCB945B0578DD95A4F50CDFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FA70D3FEA2A5B5D8298C0FB /* Build configuration list for PBXProject "Spoonerism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9099CE364521449331488A51 /* Debug */,
+				FCB945B0578DD95A4F50CDFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		755685482093496532B28CCF /* Build configuration list for PBXNativeTarget "SpoonerismTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B84FB85043B4CAB20094C7C4 /* Debug */,
+				745090A7219534B210A45BF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E0003DD37842DA5A0728B658 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF09B8971A6B9E0B7C6BE6A /* Debug */,
+				76DA551177B867E6AE43C015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F0FB37366589C859A15C7465 /* Build configuration list for PBXNativeTarget "Spoonerism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28B001F256CC748167B20764 /* Debug */,
+				832093BED2A237AC4B4AF45E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C045AB7F0ECAD718EE57B31F /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.5.0;
+			};
+		};
+		F1F78F58AD11DB195AEC3D09 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wrandecima-bit/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 7fdd403089757be2ce6991b287c7bef612c8bd04;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		06D9D3DA5421B423EC5C1C2A /* OneSignalInAppMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C045AB7F0ECAD718EE57B31F /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalInAppMessages;
+		};
+		48794442EC9CBF1755F05A23 /* OneSignalExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C045AB7F0ECAD718EE57B31F /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalExtension;
+		};
+		7298EB935653E57EB6D7F1F6 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1F78F58AD11DB195AEC3D09 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		E2682FDD0257C083FC1B6F2F /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C045AB7F0ECAD718EE57B31F /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalFramework;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1D9DDAC052B1EB506A06EBB2 /* Project object */;
+}
