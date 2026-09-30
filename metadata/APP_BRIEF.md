@@ -1,4 +1,4 @@
-<!-- gf-brief source=0d5d6de9a1b45095b3d1c5f1d64a824ad20f71ff53aea0db30cc50f7d25c9c3d written=2026-09-25T14:17:08+03:00 -->
+<!-- gf-brief source=0d5d6de9a1b45095b3d1c5f1d64a824ad20f71ff53aea0db30cc50f7d25c9c3d written=2026-09-30T16:10:18+03:00 -->
 # Spoonerism
 
 ## What it is
