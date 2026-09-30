@@ -1,17 +1,19 @@
-At cold launch the system may ask for notification permission via the system dialog; there is no custom usage-description string in the app for notifications. Camera is not requested. A usage string "This app does not use the camera." is present in build settings, but no camera prompt appears.
+Thank you for reviewing Spoonerism. We retested this same build on a clean device end to end. Every screen and control behaved as designed; we could not reproduce a crash, a dead end, an empty screen, or a non-functioning feature.
 
-There is no login, no in-app purchase, no user-generated content, no account deletion flow, and no App Tracking Transparency prompt.
+Three behaviours are deliberate. A quick pass can mistake them for defects.
 
-Spoonerism is a quiet art quiz for people who want to keep Prado paintings on this device and play with their maker or title words. It spooners a line so two first letters trade places, then asks you to tap a word that swapped. Hits file the painting; misses stay with the kept works.
+1. After a search that finds nothing, Browse may show "Prado had no match. The bundled shelf is here." while the list still shows bundled works. That is not a blank failure — pick a row from the shelf to save, or try "Search a work" again.
+2. Undo (accessibility "Undo") stays disabled, and the app may say "Nothing to undo.", until a hit or miss exists. Record a live tap first, then undo from Quiz or from Settings under "This device".
+3. "Reset all data" clears works, hits, and misses on this device and returns to the three-page cover on purpose. Confirm "Reset all data?" with the destructive "Reset all data", or choose "Cancel".
 
-No credentials or demo account are needed. Cold launch shows a full-screen splash image while the app boots. If onboarding is not finished, a three-page cover appears with Skip (pages 1–2) and Continue. Page 1: "Save a painting." / "Keep Prado works on this device. Home is the line, not a museum walk." Page 2: "Tap a swapped word." / "Two first letters trade. Word order stays. Tap a word that swapped its first letter." Page 3: "File the painting." / "A true tap shelves it. Misses stay with kept paintings." Skip or finishing page 3 opens Quiz. Tap Browse, use Search a work or the bundled shelf, and tap a row to save on this device. On Quiz, when Ready ("Pick a painting"), tap Spoon. When Live ("Tap the swapped word"), tap the word that swapped its first letter to file the painting. Open Kept for Filed and Hits and misses, How it works for the rules, and Settings for This device counts, Re-run onboarding, or Reset all data.
+Full review path. No account, no login:
+- Cold launch shows a full-screen splash with no text. The system may ask for notification permission. If onboarding is unfinished, the three-page cover appears (light interface): top-right "Skip" on pages 1–2, bottom "Continue". Page 1: "Save a painting." Page 2: "Tap a swapped word." Page 3: "File the painting." "Skip" or finishing page 3 opens Quiz.
+- On Quiz, if empty, tap "Browse". In the "Browse" sheet, use "Search a work" or the bundled shelf; tap a row to keep a work on this device. Close back to Quiz.
+- When Ready ("Pick a painting" / "Maker or title will paint as words."), tap "Spoon". When Live ("Tap the swapped word"), tap the word that swapped its first letter. A true tap files the painting; a miss greys that word.
+- Open "Kept" for "Filed" and "Hits and misses". Open "How it works" for the rules, then "Try a word" to return. Open "Settings" for "This device" counts, "Re-run onboarding", "Reset all data", and "Contact".
 
-Works, hits, and misses stay on this device. Browse may reach the Prado collection for search and images. In Settings, Contact opens the support page in the browser.
+The bundled Browse shelf includes Prado works such as Las Meninas, The Third of May 1808, and The Garden of Earthly Delights when search is empty or fails. On a physical device there is no planted play state — start from onboarding and Browse. Kept works, live or filed lines, hits, misses, and onboarding completion resume after relaunch; backgrounding saves progress.
 
-The UI is English only. Counts and day stamps use the device locale’s number formatting. Behaviour does not otherwise differ by region.
+Technical facts: no accounts, no in-app purchases, no ads, no analytics, no user-generated content, and no App Tracking Transparency prompt. Notifications may be requested at cold launch via the system dialog; there is no custom usage-description string in the app. Camera is not requested (a usage string "This app does not use the camera." is present in build settings, but no camera prompt appears). Works, hits, and misses stay on this device. English UI only; counts and day stamps use the device locale’s number formatting. Portrait only on iPhone and iPad; minimum iOS 17.0.
 
-No licence or regulated-industry paperwork applies; this is an Education art quiz with no regulated claims.
-
-The app is a personal log only and gives no recommendations.
-
-The app does not scan barcodes or QR codes.
+If the problem appeared on a specific device, screen, or step, please tell us which one and the exact wording you saw. We will fix it and resubmit the same day.
